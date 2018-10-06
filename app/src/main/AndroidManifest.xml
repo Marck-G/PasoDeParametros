@@ -16,12 +16,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Act1" android:label="Nombre y Apellidos" />
-        <activity android:name=".Act1b"  android:label="Aceptar Condiciones"/>
-        <activity android:name=".Act2" android:label="Calculadora Simple" />
-        <activity android:name=".Act2b" android:label="Resultado Operación"/>
-        <activity android:name=".Act3" android:label="Solicitud de Datos" />
-        <activity android:name=".Act3b" android:label="Muestra Datos"></activity>
+        <activity
+            android:name=".Act1"
+            android:label="Nombre y Apellidos" />
+        <activity
+            android:name=".Act1b"
+            android:label="Aceptar Condiciones" />
+        <activity
+            android:name=".Act2"
+            android:label="Calculadora Simple" />
+        <activity
+            android:name=".Act2b"
+            android:label="Resultado Operación" />
+        <activity
+            android:name=".Act3"
+            android:label="Solicitud de Datos" />
+        <activity
+            android:name=".Act3b"
+            android:label="Muestra Datos" />
+        <activity android:name=".Act4" android:label="Actividad 4"/>
+        <activity android:name=".Act4b" android:label="Actividad 4"></activity>
     </application>
 
 </manifest>

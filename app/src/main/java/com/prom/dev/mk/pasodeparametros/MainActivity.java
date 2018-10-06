@@ -29,8 +29,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity( i );
     }
 
+    public void salir( View v ){
+        finish();
+    }
+
     public void act4(View view) {
-        Intent i = new Intent(this, Act2.class );
+        Intent i = new Intent(this, Act4.class );
         startActivity( i );
     }
 
