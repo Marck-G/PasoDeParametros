@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PasoDeParametros</string>
     <string name="act2_history">PREGUNTAS CORRECTAS: % INCORRECTAS: %</string>
+    <string name="act3_msg">% de sexo % tiene % aficiones: % </string>
 </resources>
