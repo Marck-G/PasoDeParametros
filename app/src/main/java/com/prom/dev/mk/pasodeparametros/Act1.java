@@ -43,6 +43,7 @@ public class Act1 extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         if( requestCode == 23 && resultCode == RESULT_OK ){
+            //recuperamos la informacion
             text.setText( "Acepta condiciones: " + data.getExtras().get( "RESULTADO" ) );
         }
     }
