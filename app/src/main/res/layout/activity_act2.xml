@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:layout_marginHorizontal=""
+    android:layout_marginHorizontal="30dp"
     tools:context=".Act2">
     <TextView
         android:text="SUMA"
@@ -42,8 +41,20 @@
             android:id="@+id/resul"
             android:textAlignment="center"
             android:layout_weight="3"
+            android:inputType="number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </LinearLayout>
+
+    <Button
+        android:text="Comprobar el resultado"
+        android:layout_width="match_parent"
+        android:onClick="validar"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/history"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
