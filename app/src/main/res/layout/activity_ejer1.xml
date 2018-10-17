@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginVertical="10dp"
-    android:layout_marginHorizontal="20dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
-
-    <Button
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="20dp"
+    tools:context=".Ejer1">
+    <Spinner
+        android:id="@+id/spiner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="10dp"
-        android:onClick="act1"
-        android:text="Actividad 1"/>
-    <Button
+        android:text="Hello World!"
+        />
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="act2"
-        android:text="Actividad 2"/>
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:id="@+id/label"/>
 
 </LinearLayout>

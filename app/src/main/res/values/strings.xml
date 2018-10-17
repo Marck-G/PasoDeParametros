@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PasoDeParametros</string>
+    <string name="textView"> La población es %,d de habitantes </string>
 </resources>
