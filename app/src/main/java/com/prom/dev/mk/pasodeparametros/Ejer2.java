@@ -32,18 +32,12 @@ public class Ejer2 extends AppCompatActivity {
 
         lista.setAdapter( ad );
 
-        lista.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
             @Override
-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 Intent i = new Intent( Intent.ACTION_VIEW,  Uri.parse( datos[position].getUrl() ) );
-                System.out.println( "=========| " +  Uri.parse( datos[position].getUrl() ).toString() );
-                //i.setData(Uri.parse( datos[position].getUrl() ) );
                 startActivity( i );
-            }
-
-            @Override
-            public void onNothingSelected(AdapterView<?> parent) {
-
             }
         });
     }
