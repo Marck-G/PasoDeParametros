@@ -5,17 +5,17 @@ import android.graphics.drawable.Drawable;
 import java.net.URL;
 
 public class Link {
-    private URL url;
+    private String url;
     private Drawable img;
     private String nombre;
 
-    public Link(URL url, Drawable img, String nombre) {
+    public Link(String url, Drawable img, String nombre) {
         this.url = url;
         this.img = img;
         this.nombre = nombre;
     }
 
-    public URL getUrl() {
+    public String getUrl() {
         return url;
     }
 

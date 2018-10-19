@@ -6,20 +6,20 @@
     <ImageView
         android:id="@+id/itemImg"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_weight="3"/>
+        android:layout_marginHorizontal="15dp"
+        android:layout_width="wrap_content"/>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/nombre"
+            android:id="@+id/itemName"
             android:textSize="27dp"
             android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
         <TextView
-            android:id="@+id/link"
+            android:id="@+id/itemLink"
             android:textSize="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
