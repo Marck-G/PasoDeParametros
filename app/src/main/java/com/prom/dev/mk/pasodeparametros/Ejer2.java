@@ -21,17 +21,20 @@ public class Ejer2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ejer2);
 
+        //cogemos la lista de la vista
         lista = (ListView) findViewById( R.id.lista );
+        //Creamos el array con los datos
         final Link[] datos = {
                 new Link("https://www.google.com", getDrawable( R.mipmap.ic_google ),"Google" ),
                 new Link( "https://www.instagram.com", getDrawable( R.mipmap.ic_insta ), "Instagram" ),
                 new Link( "https://www.youtube.com", getDrawable( R.mipmap.ic_you) , "Youtube")
         };
-
+        //creamos nuestro adaptador con el array de dtaos
         WebAdapter ad = new WebAdapter( this, datos );
 
+        // Asignamos el adaptador a la lista
         lista.setAdapter( ad );
-
+        //colocamos el listener 
         lista.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
